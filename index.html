@@ -1,52 +1,69 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html> 
+<html lang="fr">
 <head>
-	<title>Project - Connection</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/connexion.css">
-	<script src="javascript/connexion.js" type="text/javascript"></script>
+  <meta charset="utf-8" />
+  <title>Page WEB</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
 </head>
 <body>
-	<div class="page">
-		<div class="fenetre">
-			<form>
-				<div class="title">
-					<h1>Connexion</h1>
-				</div>
 
-				<div class="input">
-					<p class="input-name">USERNAME</p>
-					<input type="text" id="user" name="username" placeholder="Username">
-					<!--<label for="user" class="animated-label">Username</label>-->
-				</div>
+<header>
+    
+    <div class="entete">
+        <div class="imgentete"><img style="height: 100%; width: 100%;" src="https://image.freepik.com/vecteurs-libre/banniere-paillettes-vertes-brillantes_1035-17692.jpg"></div>
+        
+        <div class="pentete"><p>Site WEB</p></div>
+    </div>
+    
+    
+    <ul> 
+        <li>Accueil</li>
+        <li>Actualités</li>
+        <li>Boutiques</li>
+        <li>Contacts</li>
+    </ul>
+    
+</header>
 
-				<div class="input">
-					<p class="input-name">PASSWORD</p>
-					<input type="password" id="pass" name="password" placeholder="Password">
-					<!--<label for="pass" class="animated-label">Password</label>-->
-					
-					<ul class="mdp-invalid">
-						<strong>Caractères autorisés :</strong>
-						<li><em>lettres :</em> A à Z + a à z</li>
-						<li><em>chiffres :</em> 0 à 9</li>
-						<li><em>caractères spéciaux :</em> & - _ @ ° = + * ! ?</li>
-					</ul>
-				</div>
-				<div class="connexion-error">
-					<p>Identifiant ou mot de passe invalide !</p>
-				</div>
-				<div class="validation">
-					<div id="connexion-button">
-						<button>Connexion</button>
-					</div>
-					<div id="mdp-button">
-						<button>MDP oublié</button>
-					</div>
-				</div>
-			</form>
-		</div>
-		<p class="background-credit"><a href='https://fr.freepik.com/vecteurs/banner'>Fond créé par upklyak - fr.freepik.com</a></p>
-		<a href="html/accueil.html" class="override">override</a>
-	</div>
+<main> 
+
+
+    <div class="informations">
+
+        <h2>Informations</h2> 
+        <p>Vous pourrez trouver ici des informations importantes. <a href="https://wikipedia.org">=> Wikipédia</a></p>
+    </div> 
+
+    <div class="nouvelles">
+
+        <h2>Actualités</h2> 
+        <p>On trouve ici les actualités du site.</p>
+
+    </div> 
+
+
+</main>
+
+<aside>    
+
+
+
+    
+    <div></div>
+        <h2>Nouvelles</h2>
+    <div></div>
+        <h2>Réseaux</h2>
+    <div></div>
+        <h2>Contacts</h2>
+    <div></div>
+        
+</aside>
+<footer>
+    <button onclick="f()">Boutton</button>
+    <button onclick="printPage()">Imprimer la page</button>
+    <button onclick="question()">Une question ?</button>
+</footer>
+
 </body>
 </html>
