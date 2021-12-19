@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Sinkin';
+    src: url('fonts/sinkin.otf') format('eot');
+}
+
+*{
+	padding:0px;
+  	margin:0px;
+  	font-family: Sinkin, Arial;
+  	border: none;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+div.page{
+	background-image: url("../fichiersext/background.jpg");
+	background-size: auto 100%;
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+
+
+/*		ZONE FORMULAIRE DANS SON ENSEMBLE		*/
+
+div.fenetre{
+	width: 500px;
+	min-height: 250px;
+	margin: auto auto;
+	border-radius: 5px;
+	box-shadow: 15px 15px 8px rgba(100, 100, 100, 0.5);
+	background: rgba(200, 200, 200, 0.7);
+	text-align: left;
+	padding: 2%;
+}
+
+form{
+
+}
+
+
+
+/*	TITRE	*/
+div.title{
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+
+
+
+/* 	INPUT USER + MDP	*/
+div.input{
+	padding-bottom: 5%;
+}
+
+input{
+	border-bottom: solid;
+	background-color: rgba(200, 200, 200, 0.7);
+	width: 96%;
+	border-radius: 3px;
+	padding: 2%;
+	font-size: 1.2em;
+}
+
+input:focus{
+	outline: none;
+
+	border-color: rgb(115, 44, 134);
+}
+p.input-name{
+	font-size: 12px;
+	color: #5A5E6B;
+	font-weight: bold;
+}
+.mdp-invalid{
+	font-size: 10px;
+	color: darkred;
+	display: none;
+	padding-top: 1em;
+	padding-left: 1em;
+}
+ul{
+	list-style: circle inside;
+}
+em{font-style: italic;}
+strong{font-weight: bold;}
+
+
+
+/*	INPUT INVALIDE	*/
+div.connexion-error{
+	padding-bottom: 5%;
+	display: none;
+}
+div.connexion-error p{
+	color: rgba(200, 50, 50, 0.8);
+	font-style: italic;
+}
+
+
+
+/*	ZONE BUTTON VALIDATION*/
+div.validation{
+	display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+div.validation button{
+	border: none;
+	font-size: 15px;
+	color: #333;
+	border-radius: 3px;
+	background-color: rgba(200, 200, 200, 0.7);
+	padding: 10px;
+}
+
+
+
+/*	LIEN BACKGROUND */
+.background-credit a{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-decoration: none;
+	color: gray;
+	padding: 5px;
+}
+.background-credit a:hover{
+	text-decoration: underline;
+}
+

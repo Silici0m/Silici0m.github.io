@@ -1,0 +1,1 @@
+<svg href="../fichiersext/iconMennuLateral.svg"> </svg>
